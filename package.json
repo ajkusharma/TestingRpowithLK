@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
