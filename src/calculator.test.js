@@ -10,3 +10,4 @@ const { add, subtract } = require('./calculator');
 
     test('handles zero values', () => {
       expect(add(0, 5)).toBe(5);
+    });
